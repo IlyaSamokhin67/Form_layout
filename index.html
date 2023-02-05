@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <title>Фрма</title>
+   <link rel="stylesheet" href="./css/styale.css">
+</head>
+<body>
+
+   <div class="flex">
+      <main>
+
+         <div class="Text">
+            <h1>СВЯЖИТЕСЬ С НАМИ</h1>
+            <p>Готовы начать работу? Отправьте<br>
+               сообщение и свои контакты, мы<br>
+               ответим вам в течении 2-ух дней.<br>
+               Схема работы с каждым клиентом<br>
+               будет разработана индивидуально<br>
+               в зависимости от поставленных задач.</p>
+         </div>
+
+         <form class="call" method="post">
+            <div class="group">
+               <div class="item">
+                  <input type="text" name="fio" placeholder="Ваше имя" required>
+               </div>
+
+               <div class="item">
+                  <input type="text1" name="title" placeholder="Ваша фамилия" required>
+               </div>
+            </div>
+
+            <div class="item">
+               <input type="email" name="mail" placeholder="E-mail" required>
+            </div>
+
+            <div class="item">
+               <textarea name="msg" placeholder="Введите ваше сообщение" required></textarea>
+            </div>
+
+            <label class="submit">
+               <p class="Label-Text">Наши специалисты свяжутся с вами как можно скорее</p>
+               <input type="submit" value="Отправить">
+            </label>
+
+         </form>
+
+         
+      </main>
+   </div>
+</body>
+</html>
